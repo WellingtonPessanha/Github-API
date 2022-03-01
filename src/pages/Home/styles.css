@@ -1,0 +1,32 @@
+.home-container {
+  padding: 20px;
+  font-size: 24px;
+  text-align: left;
+  letter-spacing: 0.02em;
+  min-width: 260px;
+}
+
+.home-container h1 {
+  font-size: 1em;
+}
+
+.home-container p {
+  font-size: 0.5em;
+  color: #7e7e7e;
+}
+
+.start-button {
+  color: #fff;
+  font-size: 12px;
+}
+
+@media (min-width: 576px) {
+  .home-container {
+    font-size: 48px;
+    padding: 40px;
+  }
+  .start-button {
+    color: #fff;
+    font-size: 16px;
+  }
+}

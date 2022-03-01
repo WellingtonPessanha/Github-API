@@ -1,0 +1,71 @@
+.git-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 20px;
+}
+
+.git-search-container h1 {
+  font-size: 24px;
+  text-align: left;
+  padding: 10px 0;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: start;
+  padding: 20px;
+  background-color: #e6f7ff;
+  min-width: 280px;
+  border-radius: 16px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+.form-container input {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: center;
+  height: 40px;
+  width: 240px;
+  margin-bottom: 25px;
+}
+
+.search-input::placeholder {
+  color: #d3cccc;
+}
+
+.search-button {
+  font-size: 16px;
+  height: 40px;
+  width: 100px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+@media (min-width: 576px) {
+  .git-search-container h1 {
+    font-size: 30px;
+  }
+  .search-input {
+    width: 280px;
+  }
+}
+
+@media (min-width: 768px) {
+  .git-search-container h1 {
+    font-size: 38px;
+  }
+}
